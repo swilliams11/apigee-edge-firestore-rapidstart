@@ -1,0 +1,1 @@
+# apigee-edge-firestore-rapidstart
