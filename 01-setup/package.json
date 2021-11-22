@@ -1,0 +1,17 @@
+{
+  "name": "backend-setup",
+  "version": "1.0.0",
+  "description": "Deploy and import the edge-developer-training-backed proxy to Apigee Edge.",
+  "main": "setup.js",
+  "scripts": {
+    "start": "npm install && node setup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "maven": "latest",
+    "command-line-args": "latest",
+    "replace-in-file": "latest",
+    "command-line-usage": "latest"
+  }
+}

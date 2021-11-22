@@ -1,0 +1,19 @@
+<RaiseFault name='Fault-FirestoreResponse'>
+  <DisplayName>Fault-FirestoreResponse</DisplayName>
+  <Description></Description>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <FaultResponse>
+    <Set>
+      <Payload contentType='application/json'
+               variablePrefix='%' variableSuffix='#'><![CDATA[{
+  "error" : {
+    "code" : 500,
+    "message" : "The backend was not able to process your request."
+  }
+}
+]]></Payload>
+      <StatusCode>500</StatusCode>
+      <ReasonPhrase>Internal Server Error</ReasonPhrase>
+    </Set>
+  </FaultResponse>
+</RaiseFault>

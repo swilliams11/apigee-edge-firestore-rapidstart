@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout name="Java-Firestore" continueOnError="true">
+    <Properties>
+        <!-- JS injection patterns -->
+        <Property name="firestoreKey">bv6zy3zjy4nb79dw</Property>
+        <Property name="docId">{flw.docId}</Property>
+        <Property name="collectionName">{flw.collectionName}</Property>
+    </Properties>
+    <ClassName>FirestoreCallout</ClassName>
+    <ResourceURL>java://firestore-javacallout.jar</ResourceURL>
+</JavaCallout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="firestore-java">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1389894139565</CreatedAt>
+    <CreatedBy></CreatedBy>
+    <DisplayName>firestore-java</DisplayName>
+    <LastModifiedAt>1389894139565</LastModifiedAt>
+    <LastModifiedBy></LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
